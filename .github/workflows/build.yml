@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  MEDIAWIKI_VERSION: "1.45.1-fpm-alpine"
+  MEDIAWIKI_VERSION: "1.45.3-fpm-alpine"
 
 jobs:
   build:

@@ -22,8 +22,8 @@ Actions on every push to `main`.
 
 Tags:
 
-- `1.45.1-fpm-alpine-<sha>` -- immutable, pinned to a specific commit
-- `1.45.1-fpm-alpine` -- moving tag, latest build for this version
+- `1.45.3-fpm-alpine-<sha>` -- immutable, pinned to a specific commit
+- `1.45.3-fpm-alpine` -- moving tag, latest build for this version
 - `latest` -- latest build
 
 ## Updating

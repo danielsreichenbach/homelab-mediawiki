@@ -1,6 +1,6 @@
-ARG MEDIAWIKI_VERSION=1.45.1-fpm-alpine
+ARG MEDIAWIKI_VERSION=1.45.3-fpm-alpine
 
-FROM mediawiki:${MEDIAWIKI_VERSION}
+FROM docker.io/library/mediawiki:${MEDIAWIKI_VERSION}
 
 # Install runtime dependencies and build PHP extensions in one layer
 RUN set -eux; \
